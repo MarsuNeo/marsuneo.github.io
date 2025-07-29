@@ -1,256 +1,197 @@
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>MarsuNeo | Innovating Infant Care</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-  <style>
-    body {
-      font-family: 'Poppins', sans-serif;
-      margin: 0;
-      background: #f9fafb;
-      color: #111827;
-    }
-
-    header {
-      background-color: #0f172a;
-      color: white;
-      padding: 3rem 1rem;
-      text-align: center;
-    }
-
-    h1 {
-      font-size: 2.5rem;
-      margin-bottom: 0.5rem;
-    }
-
-    h2 {
-      font-size: 1.5rem;
-      color: #1e293b;
-    }
-
-    section {
-      padding: 2rem 1rem;
-      max-width: 900px;
-      margin: auto;
-    }
-
-    .features {
-      display: grid;
-      gap: 1.5rem;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    }
-
-    .card {
-      background: white;
-      padding: 1.5rem;
-      border-radius: 12px;
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-    }
-
-    footer {
-      background-color: #1f2937;
-      color: white;
-      text-align: center;
-      padding: 1rem;
-      font-size: 0.9rem;
-    }
-
-    a {
-      color: #2563eb;
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <h1>MarsuNeo</h1>
-    <p>Innovating Infant Care</p>
-  </header>
-
-  <section>
-    <h2>About Us</h2>
-    <p>
-      We are a deep-tech MedTech startup on a mission to transform neonatal and pediatric health through advanced smart biosensors, machine learning, and real-time monitoring systems. Our flagship innovation—<strong>Smart NICU</strong>—brings AI-powered insights and thermal-vision analytics for critical care of newborns and preterm babies.
-    </p>
-  </section>
-
-  <section>
-    <h2>What We Build</h2>
-    <div class="features">
-      <div class="card">
-        <h3>Smart NICU Platform</h3>
-        <p>End-to-end integrated neonatal health monitoring powered by thermal imaging, edge AI, and real-time alerts.</p>
-      </div>
-      <div class="card">
-        <h3>Fetal Monitoring Sensors</h3>
-        <p>Non-invasive wearable biosensors for continuous fetal heart rate and movement monitoring.</p>
-      </div>
-      <div class="card">
-        <h3>Early Diagnostic AI</h3>
-        <p>Predictive analytics for early detection of neonatal sepsis, respiratory distress, and neuro-developmental risks.</p>
-      </div>
-    </div>
-  </section>
-
-  <section>
-    <h2>Join Us</h2>
-    <p>We’re looking for collaborators, healthcare partners, and research innovators. Reach out to us at <a href="mailto:hello@marsuneo.com">hello@marsuneo.com</a>.</p>
-  </section>
-
-  <footer>
-    &copy; 2025 MarsuNeo | Innovating Infant Care · <a href="https://github.com/MarsuNeo">GitHub</a>
-  </footer>
-</body>
-</html> -->
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="MarsuNeo: Innovating Infant Care" />
-  <title>MarsuNeo | Innovating Infant Care</title>
-  <link rel="icon" href="marsuneo-logo-removebg.png" type="image/x-icon">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <title>MarsuNeo - Innovating Infant Care</title>
+  <link rel="icon" href="marsuneo-logo-removebg.png" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
   <style>
-    :root {
-      --primary-color: #001f3f;
-      --accent-color: #00bcd4;
-      --text-color: #f1f1f1;
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
     }
 
     body {
-      margin: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: var(--primary-color);
-      color: var(--text-color);
+      background-color: #f4f6fa;
+      color: #2c3e50;
+      line-height: 1.6;
     }
 
     header {
-      background-color: var(--primary-color);
-      padding: 2rem 1rem;
+      background-color: #1a1f36;
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header img.logo {
+      height: 40px;
+    }
+
+    nav a {
+      color: white;
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .hero {
       text-align: center;
+      padding: 5rem 2rem;
+      background-color: #ffffff;
     }
 
-    header img {
-      width: 80px;
-      height: 80px;
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
     }
 
-    header h1 {
-      font-size: 2.5rem;
-      margin: 0.5rem 0;
-      color: var(--accent-color);
+    .hero p {
+      font-size: 1.2rem;
+      max-width: 800px;
+      margin: auto;
     }
 
     section {
-      padding: 2rem;
-      max-width: 1000px;
+      padding: 4rem 2rem;
+      max-width: 1200px;
       margin: auto;
     }
 
     section h2 {
-      color: var(--accent-color);
       font-size: 2rem;
+      margin-bottom: 1rem;
     }
 
-    .team-container {
-      display: flex;
-      flex-wrap: wrap;
+    .team {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
       gap: 2rem;
-      justify-content: center;
+      margin-top: 2rem;
     }
 
-    .team-member {
-      flex: 1 1 200px;
+    .member {
+      background-color: #fff;
+      border-radius: 12px;
+      padding: 1.5rem;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
       text-align: center;
     }
 
-    .team-member img {
-      width: 150px;
-      height: 150px;
+    .member img {
+      width: 100px;
+      height: 100px;
       border-radius: 50%;
-      border: 4px solid var(--accent-color);
       object-fit: cover;
+      margin-bottom: 1rem;
     }
 
     footer {
-      background-color: #000;
-      color: var(--text-color);
-      padding: 2rem 1rem;
+      background-color: #1a1f36;
+      color: white;
       text-align: center;
+      padding: 2rem;
     }
 
-    footer p {
-      margin: 0.2rem;
+    .fade-in {
+      opacity: 0;
+      transform: translateY(20px);
+      transition: all 0.8s ease;
     }
 
-    .animate__animated {
-      animation-duration: 1.5s;
+    .fade-in.visible {
+      opacity: 1;
+      transform: translateY(0);
     }
   </style>
 </head>
+
 <body>
-  <header class="animate__animated animate__fadeInDown">
-    <img src="marsuneo-logo-removebg.png" alt="MarsuNeo Logo" />
-    <h1>MarsuNeo: Innovating Infant Care</h1>
-    <p>DeepTech Innovation for Neonatal Health</p>
+  <header>
+    <img src="marsuneo-logo-removebg.png" alt="MarsuNeo Logo" class="logo" />
+    <nav>
+      <a href="#about">About</a>
+      <a href="#problem">Problem</a>
+      <a href="#solution">Solution</a>
+      <a href="#team">Team</a>
+    </nav>
   </header>
 
-  <section class="animate__animated animate__fadeInUp">
+  <div class="hero">
+    <h1>MarsuNeo: Innovating Infant Care</h1>
+    <p>Delivering scalable and affordable diagnosis solutions for neonatal healthcare through AI and MedTech innovation.</p>
+  </div>
+
+  <section id="about" class="fade-in">
     <h2>About Us</h2>
-    <p>MarsuNeo is a DPIIT (Startup India) Recognised (DIPP: DIPP195578) MedTech startup registered under the Ministry Of Corporate Affairs (India) as Jalandar Kartika Computational Pvt. Ltd. (CIN: U58201OD2024PTC045104 | GST: 21AAGCJ3400Q1ZO).</p>
-    <p>We are a visionary medtech startup integrating precision sensors, digital signal processing, and in-house developed deep learning architectures to deliver scalable and affordable diagnostic solutions across a broad spectrum of clinical applications.</p>
+    <p>MarsuNeo is a DPIIT (Startup India) Recognised (DIPP: DIPP195578) MedTech startup registered under the Ministry of Corporate Affairs of India as Jalandar Kartika Computational Pvt Ltd (CIN: U58201OD2024PTC045104 | GST: 21AAGCJ3400Q1ZO).</p>
+    <p>We integrate precision sensors, signal processing, and deep learning architectures to create innovative, affordable solutions across clinical applications.</p>
   </section>
 
-  <section class="animate__animated animate__fadeInLeft">
-    <h2>The Problem We Are Solving</h2>
-    <p>Neonatal jaundice is a critical and common condition, especially among preterm infants. If left untreated, it can lead to life-threatening complications like kernicterus and sepsis. In low-income regions like rural India and Africa, access to diagnostic and therapeutic resources is limited, primarily due to high costs. There is an urgent need for an innovative, accessible solution to enable early and effective jaundice management.</p>
+  <section id="problem" class="fade-in">
+    <h2>The Problem</h2>
+    <p>Neonatal Jaundice is a common yet critical condition in preterm babies. If untreated, it can lead to severe complications such as kernicterus and sepsis. In low-resource areas like rural India and parts of Africa, the lack of affordable diagnostic tools makes effective treatment challenging.</p>
   </section>
 
-  <section class="animate__animated animate__fadeInRight">
+  <section id="solution" class="fade-in">
     <h2>Our Solution</h2>
-    <p>We are developing the MarsuNeo Bilirubinometer – an innovative, non-invasive device currently under research and development. It extracts optical signatures of multi-wavelength light absorbed and scattered through an infant’s transcutaneous zone. Using proprietary artificial neural network models, the device provides a highly accurate estimate of bilirubin levels and distinguishes between direct and indirect bilirubin – surpassing current market solutions.</p>
+    <p>The MarsuNeo Bilirubinometer is a device under development that uses multi-wavelength light analysis and deep neural networks to non-invasively and accurately measure bilirubin levels through the skin.</p>
   </section>
 
-  <section class="animate__animated animate__fadeInUp">
+  <section id="team" class="fade-in">
     <h2>Our Team</h2>
-    <div class="team-container">
-      <div class="team-member">
+    <div class="team">
+      <div class="member">
         <img src="kailash.jpg" alt="Kailash Bhakta" />
         <h3>Kailash Ch. Bhakta</h3>
-        <p>Founder & CEO<br/>Biomedical Engineer, IIT BHU<br/>DeepTech Entrepreneur</p>
+        <p>Founder & CEO – Biomedical graduate from IIT (BHU) with 4+ years in DeepTech startups.</p>
       </div>
-      <div class="team-member">
+      <div class="member">
         <img src="bhaskar.jpg" alt="Bhaskar Bhakta" />
         <h3>Bhaskar Bhakta</h3>
-        <p>Co-Founder<br/>Veteran Educator<br/>38+ Years in Odisha Education Department</p>
+        <p>Co-Founder – Veteran teacher with 38+ years in Odisha's education sector.</p>
       </div>
-      <div class="team-member">
+      <div class="member">
         <img src="manas.jpg" alt="Manas Bossy" />
-        <h3>Manas Bossy</h3>
-        <p>COO<br/>Sales & Marketing Specialist<br/>Passionate about Social Impact</p>
+        <h3>Manas Bissoyi</h3>
+        <p>COO – Passionate entrepreneur with expertise in sales and marketing.</p>
       </div>
-      <div class="team-member">
+      <div class="member">
         <img src="pravakar.jpg" alt="Pravakar Bhakta" />
         <h3>Pravakar Bhakta</h3>
-        <p>Creative Head<br/>Artist from Odisha<br/>Expert in Cultural Product Design</p>
+        <p>Creative Head – Artist and cultural designer from Odisha.</p>
       </div>
     </div>
   </section>
 
-  <footer class="animate__animated animate__fadeInUp">
-    <p>&copy; 2025 MarsuNeo | Jalandar Kartika Computational Pvt Ltd</p>
-    <p>CIN: U58201OD2024PTC045104 | GST: 21AAGCJ3400Q1ZO | DIPP195578</p>
-    <p>Email: jkcl.ceo@gmail.com | Phone: +91-6372904944</p>
-    <p>Registered Office: Kotpad, Koraput, Odisha, India</p>
-    <p>Made with ❤️ by the MarsuNeo Team</p>
+  <footer>
+    <p>&copy; 2025 MarsuNeo. All rights reserved.</p>
+    <p>Contact: jkcl.ceo@gmail.com | CIN: U58201OD2024PTC045104</p>
   </footer>
+
+  <script>
+    const sections = document.querySelectorAll('.fade-in');
+
+    const appearOnScroll = new IntersectionObserver(function (entries, observer) {
+      entries.forEach(entry => {
+        if (!entry.isIntersecting) return;
+        entry.target.classList.add('visible');
+        observer.unobserve(entry.target);
+      });
+    }, {
+      threshold: 0.1
+    });
+
+    sections.forEach(section => {
+      appearOnScroll.observe(section);
+    });
+  </script>
 </body>
+
 </html>
